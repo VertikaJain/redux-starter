@@ -1,5 +1,7 @@
 import { compose, pipe } from "lodash/fp";
 
+import "./updatingObjectsExample"
+
 let input = "   JavaScript    ";
 let output = "<div>" + input.trim() + "</div>"
 // console.log(output);
@@ -20,7 +22,7 @@ const toLowerCase = str => str.toLowerCase()
 
 // Currying
 const transformLeftToRightCurry = pipe(trim, toLowerCase, wrap("span"))
-console.log(transformLeftToRightCurry(input));
+// console.log(transformLeftToRightCurry(input));
 
 // CURRYING - other example
 function add(a) {
@@ -29,8 +31,8 @@ function add(a) {
   }
 }
 const add1 = add(1)
-console.log(add1(5)) // OR add(1)(5)
+// console.log(add1(5)) // OR add(1)(5)
 
 // Currying using Arrow function
 const add2 = a => b => a + b
-console.log(add2(2)(5));
+// console.log(add2(2)(5));
