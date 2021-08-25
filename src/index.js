@@ -1,6 +1,7 @@
 import { compose, pipe } from "lodash/fp";
 
-import "./updatingObjectsExample"
+// import "./updatingObjectsExample"
+import "./updatingArraysExample"
 
 let input = "   JavaScript    ";
 let output = "<div>" + input.trim() + "</div>"
