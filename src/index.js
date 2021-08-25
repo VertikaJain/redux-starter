@@ -1,7 +1,8 @@
 import { compose, pipe } from "lodash/fp";
 
 // import "./updatingObjectsExample"
-import "./updatingArraysExample"
+// import "./updatingArraysExample"
+import "./enforcingImmutability"
 
 let input = "   JavaScript    ";
 let output = "<div>" + input.trim() + "</div>"
